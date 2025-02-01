@@ -1423,11 +1423,29 @@ body {
 }
 
 .terms-introduction {
-  margin-bottom: 40px;
-  padding: 20px;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.terms-button-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.terms-button {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background-color: #4A90E2;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.terms-button:hover {
+  background-color: #357ABD;
+  color: white !important;
 }
 
 .terms-introduction p {
@@ -1452,6 +1470,7 @@ body {
 .terms-section h3 {
   color: #1a2a6c;
   font-size: 1.4em;
+  margin-top: 1.5rem;
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 2px solid #f0f0f0;
@@ -1476,4 +1495,91 @@ body {
   list-style-type: lower-alpha;
   margin-top: 10px;
   margin-bottom: 0;
+}
+
+.terms-section h2 {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.terms-section ul {
+    padding-left: 2rem;
+    margin-top: 1.5rem;
+}
+
+.terms-section ul li {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.terms-section:last-child {
+    margin-bottom: 0.75rem;
+}
+
+.terms-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 2rem 0.5rem;
+}
+
+.terms-page .section-title {
+    margin-bottom: 2rem;
+}
+
+.terms-page .terms-sections {
+    margin-bottom: 0.75rem;
+}
+
+/* 利用規約ページのフッター */
+.terms-footer {
+    text-align: center;
+    padding: 0.25rem 0 1.75rem;
+    margin-top: 0;
+}
+
+.terms-footer p {
+    margin: 0.25rem 0;
+}
+
+.terms-footer p:last-child {
+    margin-top: 3rem;
+}
+
+.terms-footer a {
+    color: #4A90E2;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.terms-footer a:hover {
+    color: #357ABD;
+}
+
+/* トップページへ戻るボタン */
+.back-to-top-button {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: #4A90E2;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin: 0.5rem 0;
+}
+
+.back-to-top-button:hover {
+    background-color: #357ABD;
+    color: white !important;
+}
+
+.terms-final-list {
+    margin-bottom: 0.5rem !important;
+}
+
+.terms-section:last-child h2 {
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
 }
